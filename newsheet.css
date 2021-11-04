@@ -1,0 +1,179 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* { margin: 0; padding: 0; }
+        #global { height: 100vh; }
+        #header { height: 60px;}
+        #content { height: calc(100% - (60px + 50px)); }
+        #footer { height: 50px;}
+
+.accountbody{
+    background-color: #de7f44;
+}
+
+.usernamehead{
+    text-align: center; 
+    margin-top: 2%;
+}
+
+.accounttable{
+    margin-left:auto; 
+    margin-right:auto; 
+    padding: 10px; 
+    border: 2px solid ;
+    border-color: #de7f44; 
+    border-radius: 18px;
+    font-size:18px; 
+    border-collapse:separate; 
+    background-color: white; 
+    border-spacing:1em;
+}
+
+.accountbutton{
+    text-align: center; 
+    margin-top: 4%; 
+    margin-bottom: 5%;
+}
+
+.edithead{
+    text-align: center; 
+    margin: 2%;
+}
+
+.editform{
+    margin-right: auto;
+    margin-left: auto; 
+    text-align:center; 
+    border: solid 2px #de7f44!important; 
+    background-color:white;
+}
+
+.editform div{
+    margin-bottom: 3%;
+}
+
+.updatebut{
+    margin-top: 5%;
+}
+.feedbackform{
+    adding: 20px; 
+    border: 2px solid; 
+    border-color: #de7f44; 
+    border-radius: 18px; 
+    width: 30%; 
+    margin-left: auto; 
+    margin-right:auto; 
+    background-color: white;
+}
+
+.feedbacktext{
+    width:400px; 
+    height:200px; 
+    resize:none; 
+    overflow:auto; 
+    border-radius:4px;
+}
+
+.editdet{
+    margin-bottom: 40px; 
+    margin-top: 10px;
+}
+
+.editmargin{
+    margin-bottom: 5%;
+}
+
+.osdet{
+    margin-bottom: 6%;
+}
+
+.osmargin{
+    margin-bottom: 1.5%;
+}
+
+.radio-but label {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0.2em;
+}
+.radio-but label input[type="radio"] {
+  display: block;
+  margin: 0.5em auto;
+}
+
+.cart-box{
+    height: 80px;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+.feedForm{
+    padding: 20px; 
+    border: 2px solid; 
+    border-color: #de7f44; 
+    border-radius: 18px; 
+    width: 30%; 
+    margin-left: auto; 
+    margin-right:auto; 
+    background-color: white;
+}
+
+.productalign{
+    width:48%; 
+    float:left; 
+    text-align:center; 
+    padding-top:3%;
+}
+
+.pricealign{
+    width:20%; 
+    float:left; 
+    text-align:center;
+}
+
+.products{
+    padding:2% ;
+    margin-right:20px;
+}
+
+.cartsubmit{
+    width:40%; 
+    float:right; 
+    text-align:left; 
+    margin-right:1% ;
+    padding-right:4%;"
+}
+
+.innerprice{
+    float:left; 
+    height: 80px; 
+    width: 13%; 
+    margin: 1%; 
+    padding: 2%; 
+    text-align:center;
+}
+
+.innerremove{
+    float:left; 
+    text-align:center; 
+    height: 80px; 
+    width: 13%; 
+    margin: 1%; 
+    padding: 2%;
+}
+
+.orderformsubmit{
+    text-align: center; 
+    margin-top:3%;
+}
+
+
+.orderformsubmit div{
+    margin-bottom: 1.5%;
+}

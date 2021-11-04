@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+/*Grid arrangement for Homepage*/
+.container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 600px 690px 60px;
+    grid-template-areas: "header"
+                        "content1"
+                        "content2"
+                        "footer";
+}
+header {
+    background-color: #b55920;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+li {
+    float: left;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 14px;
+}
+li a:link {
+    color: #000000;
+}
+
+li a:visited {
+    color: #000000;
+}
+
+.content1 {
+    grid-area: content1;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)),url(images/Pizza.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+}
+
+#description{
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: 25px;
+}
+
+#heading {
+    font-size: 90px;
+    color: #000000;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 550px;
+    float: left;
+    overflow: hidden;
+    display: inline;
+}
+
+.content2 {
+    grid-area: content2;
+    background-color: #de7f44;
+}
+
+#aboutus {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+#about {
+    width: 600px;
+    margin-left: 26%;
+    font-size: 25px;
+}
+
+footer {
+   background-color: #b55920;
+   padding-left: 15px;
+   padding-top: 15px;
+   color: #000000;
+   font-family: arial;
+   text-align: center;
+}
